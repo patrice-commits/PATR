@@ -1,0 +1,254 @@
+{
+  "header": {
+    "name": "Patrice Rivest",
+    "title": "Leader des Ventes Régionales | Gestion de Réseaux de Concessionnaires | Croissance des Ventes & Excellence CX",
+    "location": "Montréal, Québec",
+    "phone": "(450) 760-8910",
+    "email": "patrice@rivest.co",
+    "website": "patricerivest.co",
+    "cta": {
+      "email": "Courriel",
+      "call": "Appeler",
+      "download": "Télécharger CV PDF"
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "profile": "Profil",
+    "competencies": "Compétences",
+    "experience": "Expérience",
+    "achievements": "Réalisations",
+    "portfolio": "Portfolio",
+    "education": "Formation",
+    "contact": "Contact"
+  },
+  "profile": {
+    "title": "Profil Exécutif",
+    "content": "Leader des ventes régionales axé sur les résultats avec plus de 25 ans d'expérience progressive en leadership, stimulant la croissance des revenus, l'expansion du réseau de concessionnaires et l'excellence opérationnelle au sein d'organisations Fortune 500 et d'entreprises en croissance. Bilan éprouvé dans la construction et la mise à l'échelle d'équipes de terrain performantes, la gestion de réseaux de concessionnaires et le dépassement constant des objectifs de vente au détail, de gros et de rentabilité. Penseur stratégique compétent en développement de concessionnaires, coaching d'équipe, exécution terrain et création d'expériences client de classe mondiale. Expertise démontrée dans la supervision des opérations terrain, l'optimisation des performances des concessionnaires, la gestion des stocks et l'engagement des parties prenantes—avec capacité bilingue (anglais/français) et compréhension approfondie des opérations de concessionnaires et de la dynamique vente détail-gros. Expert reconnu de l'industrie powersports avec crédibilité établie par des contributions éditoriales et un engagement médiatique."
+  },
+  "competencies": {
+    "title": "Compétences Clés",
+    "categories": [
+      {
+        "name": "Leadership des Ventes & Réseau de Concessionnaires",
+        "skills": [
+          "Leadership d'Équipe (170–275+ rapports directs)",
+          "Gestion de Réseau de Concessionnaires",
+          "Performance Détail & Gros",
+          "Supervision des Opérations Terrain",
+          "Programmes d'Excellence Concessionnaires",
+          "Croissance P&A & Accessoires",
+          "Gestion & Optimisation des Stocks"
+        ]
+      },
+      {
+        "name": "Exécution Terrain & Gestion des KPI",
+        "skills": [
+          "Atteinte des Objectifs de Vente",
+          "Suivi & Analyse des KPI",
+          "Gestion de la Cadence de Visites Concessionnaires",
+          "Gestion des Leads",
+          "Programmes d'Amélioration de Performance",
+          "Planification des Ventes Régionales",
+          "Activation Stratégique du Marché"
+        ]
+      },
+      {
+        "name": "Développement & Optimisation des Concessionnaires",
+        "skills": [
+          "Analyse de Performance des Concessionnaires",
+          "Recommandations Achat/Vente",
+          "Expansion & Optimisation du Réseau",
+          "Gestion des Relations Concessionnaires",
+          "Coaching Stratégique des Concessionnaires",
+          "Gestion Multi-Canal (OEM, Marchés Spécialisés)"
+        ]
+      },
+      {
+        "name": "Opérations & Gestion Stratégique",
+        "skills": [
+          "Gestion P&L",
+          "Propriété du Budget & Contrôle des Coûts",
+          "Santé des Stocks & Planification des Besoins",
+          "Alignement Inter-Fonctionnel",
+          "Engagement des Parties Prenantes",
+          "Adoption d'Outils Terrain (SalesForce, CRM)"
+        ]
+      },
+      {
+        "name": "Leadership & Communication",
+        "skills": [
+          "Coaching & Développement d'Équipe",
+          "Définition de Vision Stratégique",
+          "Webinaires Trimestriels & Réunions Régionales",
+          "Compétences Interpersonnelles & Analytiques",
+          "Acuité Financière d'Entreprise",
+          "Communication Bilingue (Anglais/Français)"
+        ]
+      },
+      {
+        "name": "Expertise Industrie & Médias",
+        "skills": [
+          "Intelligence du Marché Powersports",
+          "Contributions Éditoriales",
+          "Relations Médias & Positionnement Industrie",
+          "Développement de Crédibilité de Marque",
+          "Analyse des Tendances du Marché"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Expérience Professionnelle",
+    "positions": [
+      {
+        "title": "Président",
+        "company": "Magellan / Segway Powersports Canada",
+        "period": "Mars 2024 – Mars 2025",
+        "description": "Direction de la distribution nationale et des opérations du réseau de concessionnaires pour les produits Segway Powersports à travers le Canada. Gestion de l'infrastructure d'importation, de distribution et de service après-vente desservant un réseau de concessionnaires couvrant tout le pays. Supervision des opérations multiples incluant logistique, relations concessionnaires et normes de service après-vente. Mise en œuvre d'initiatives d'automatisation basées sur l'IA et de gestion du changement pour optimiser l'efficacité opérationnelle et l'engagement des concessionnaires.",
+        "achievements": [
+          "Direction du réseau de distribution national pour une marque powersports premium établissant des normes de performance et de conformité cohérentes pour les concessionnaires",
+          "Gestion de l'acquisition de concessionnaires, développement des relations et suivi de la performance assurant l'alignement avec les KPI opérationnels et de rentabilité",
+          "Mise en œuvre de plateformes de suivi et de communication des concessionnaires intégrées à l'IA accélérant la prise de décision et la responsabilisation terrain",
+          "Direction d'initiatives de coaching d'équipe terrain et de développement stratégique des concessionnaires stimulant l'atteinte des objectifs de vente détail et gros",
+          "Gestion de stratégies d'optimisation des stocks assurant un approvisionnement mensuel et un mix de modèles appropriés à travers le réseau national de concessionnaires",
+          "Coordination de l'activation commerciale multi-canal (OEM, marchés spécialisés) soutenant la diversification des revenus à travers le réseau de concessionnaires"
+        ],
+        "tags": ["Leadership des Ventes", "Gestion de Réseau", "Optimisation des Stocks", "IA & Automatisation", "Powersports"]
+      },
+      {
+        "title": "Vice-Président, Opérations",
+        "company": "Garantie Avantage Plus",
+        "period": "Février 2021 – Mars 2024",
+        "description": "Direction de la transformation stratégique et de l'expansion géographique des opérations d'une province unique à un réseau de distribution pancanadien desservant le marché powersports. Gestion directe du développement du réseau de concessionnaires, de la stratégie d'expansion de marché et du repositionnement marketing, réalisant une reconnaissance de marque leader du marché et une satisfaction des concessionnaires à travers les marchés powersports canadiens.",
+        "achievements": [
+          "Mise à l'échelle des opérations du réseau de concessionnaires à travers toutes les provinces canadiennes gérant la complexité multi-sites et l'optimisation de la performance régionale dans le secteur powersports",
+          "Stimulation du développement du marché powersports et de l'acquisition de concessionnaires élargissant la présence de la marque à travers les marchés régionaux clés et les segments de concessionnaires",
+          "Repositionnement de la stratégie d'engagement des concessionnaires résultant en une reconnaissance de marque leader du marché et un alignement des partenaires concessionnaires dans l'industrie powersports",
+          "Gestion de la coordination inter-fonctionnelle entre les opérations terrain et le marketing assurant une messagerie cohérente aux concessionnaires et un positionnement de marque",
+          "Mise en œuvre d'un cadre de communication national avec les concessionnaires et de systèmes de suivi de performance tout en maintenant l'efficacité opérationnelle"
+        ],
+        "tags": ["Transformation Stratégique", "Expansion Nationale", "Développement de Concessionnaires", "Marketing", "Powersports"]
+      },
+      {
+        "title": "Fondateur & Principal",
+        "company": "Rivest Co.",
+        "period": "2017 – Présent",
+        "description": "Fondation et exploitation d'un cabinet de conseil concurrent soutenant des clients concessionnaires powersports B2B et des fabricants avec le développement de réseaux de concessionnaires, des stratégies de croissance de concessions et des services-conseils en optimisation des ventes. Construction d'une équipe de professionnels offrant des engagements de conseil structurés et axés sur les résultats dans les domaines des ventes, des opérations de concessionnaires, de l'expansion de réseau et de l'exécution terrain. Développement d'une expertise spécialisée dans l'optimisation des réseaux de concessionnaires powersports et le développement de canaux de distribution d'importation pancanadiens. Expertise intégrée en gestion du changement permettant aux clients de naviguer dans la transformation d'équipe, l'optimisation de performance et les stratégies d'exécution terrain.",
+        "achievements": [
+          "Lancement d'une division de conseil générant des revenus annuels à six chiffres soutenant les concessions et fabricants powersports avec le développement de réseaux et des stratégies de croissance",
+          "Développement de cadres de coaching de performance de concessionnaires propriétaires et de méthodologies d'optimisation de réseau déployés à travers de multiples engagements clients powersports",
+          "Direction de services-conseils stratégiques sur la croissance de concessions, l'expansion de réseau et l'optimisation de canaux de distribution pancanadiens pour des clients fabricants powersports",
+          "Établissement d'une expertise dans le développement de réseaux de concessionnaires powersports, la supervision des opérations terrain, l'optimisation de la performance des ventes et la gestion de canaux de distribution d'importation"
+        ],
+        "tags": ["Conseil Stratégique", "Développement de Réseau", "Croissance de Concessions", "Optimisation des Ventes", "B2B"]
+      },
+      {
+        "title": "Gestionnaire d'Unité Régionale",
+        "company": "Bell / The Source",
+        "period": "2013 – 2017",
+        "description": "Direction de la stratégie d'expansion régionale et d'acquisition de concessionnaires pour la division The Source Express. Promotion à un rôle de restructuration corporative après avoir démontré un leadership régional exceptionnel. Gestion de 275+ employés à travers de multiples emplacements avec responsabilité pour les indicateurs de performance à l'échelle du territoire, les objectifs de vente au détail et l'optimisation du réseau de concessionnaires.",
+        "achievements": [
+          "Direction de la mise en œuvre de la division concessionnaires The Source Express du pilote au déploiement régional complet gérant 275+ employés terrain et détail",
+          "Croissance du territoire par des acquisitions stratégiques de concessionnaires, gestion de performance et optimisation de réseau",
+          "Promotion obtenue à un rôle de restructuration corporative en raison d'atteintes élevées constantes et de livraison de performance des ventes",
+          "Achèvement du mandat de restructuration territoriale atteignant la 2e performance classée au Canada à travers tous les KPI incluant détail, gros et rentabilité",
+          "Mise en œuvre de normes de cadence de visites terrain et de systèmes de suivi de performance des concessionnaires assurant un engagement et une responsabilisation cohérents des concessionnaires",
+          "Gestion d'initiatives de communication trimestrielle avec les concessionnaires et de rapports de performance régionaux pour stimuler l'alignement et les résultats"
+        ],
+        "tags": ["Expansion Régionale", "Gestion d'Équipe", "Restructuration", "Performance KPI", "Réseau de Détail"]
+      },
+      {
+        "title": "Directeur de District, Gestion Générale",
+        "company": "Best Buy Canada",
+        "period": "2008 – 2013",
+        "description": "Promotion rapide de Directeur Général à Directeur de District supervisant de multiples emplacements. Responsable des opérations du district, de l'atteinte des objectifs de ventes et de la gestion d'équipes de leadership.",
+        "achievements": [
+          "Augmentation de 178% du profit de vente au détail dans le territoire CFMOTO atteignant des résultats sans précédent de croissance",
+          "Gestion de multiples emplacements de magasins avec supervision complète du P&L et responsabilité opérationnelle",
+          "Développement et mentorat de gestionnaires de magasins stimulant des améliorations de performance cohérentes à travers le district",
+          "Mise en œuvre de meilleures pratiques et processus standardisés assurant l'excellence opérationnelle"
+        ],
+        "tags": ["Gestion de District", "Croissance du Profit", "Leadership Multi-Sites", "Excellence Opérationnelle", "Détail"]
+      },
+      {
+        "title": "Gestionnaire de Conformité de District",
+        "company": "Walmart Canada",
+        "period": "2003 – 2008",
+        "description": "Gestion de la conformité à l'échelle du district, des programmes de sécurité et des initiatives d'excellence opérationnelle à travers de multiples emplacements. Développement et mise en œuvre de programmes innovants de prévention des accidents tout en supervisant les contrôles des stocks et les projets stratégiques d'expansion du détail. Soutien du développement commercial multi-canal incluant des initiatives OEM et de marchés spécialisés.",
+        "achievements": [
+          "Conception et mise en œuvre d'un programme de prévention des blessures au dos pour le personnel d'entrepôt réduisant les coûts liés aux accidents de 47% à travers le territoire",
+          "Renforcement des procédures de vérification des stocks et des protocoles de prévention des pertes atteignant une réduction mesurable des pertes et des économies de coûts",
+          "Direction de la mise en œuvre du déploiement de la division épicerie des SuperCentres Walmart établissant le cadre opérationnel et les processus de gestion concessionnaires/fournisseurs",
+          "Gestion des initiatives de conformité de district et des normes d'exécution terrain assurant l'adhérence aux directives corporatives et aux meilleures pratiques opérationnelles"
+        ],
+        "tags": ["Conformité", "Programmes de Sécurité", "Réduction des Coûts", "Excellence Opérationnelle", "Gestion des Stocks"]
+      },
+      {
+        "title": "Vice-Président",
+        "company": "La Firme Rivest et Desjardins (Entreprise Familiale)",
+        "period": "1998 – 2003",
+        "description": "Gestion des opérations et de la stratégie de croissance pour une entreprise familiale établie. Développement de l'acuité commerciale en gestion financière, optimisation P&L et leadership d'équipe.",
+        "achievements": [
+          "Direction des opérations quotidiennes et de la planification stratégique pour l'entreprise familiale",
+          "Développement de compétences fondamentales en gestion P&L et contrôle financier",
+          "Construction et leadership d'équipes performantes stimulant la croissance de l'entreprise"
+        ],
+        "tags": ["Gestion d'Entreprise", "Leadership", "Gestion Financière", "Stratégie de Croissance"]
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Réalisations Clés",
+    "metrics": [
+      {
+        "value": "+58%",
+        "label": "Croissance Territoire CFMOTO"
+      },
+      {
+        "value": "+178%",
+        "label": "Profit Ventes Détail Best Buy"
+      },
+      {
+        "value": "170–275+",
+        "label": "Gestion d'Équipe (Rapports Directs)"
+      },
+      {
+        "value": "-47%",
+        "label": "Réduction Coûts Accidents Walmart"
+      },
+      {
+        "value": "National",
+        "label": "Expansion Réseau Concessionnaires"
+      },
+      {
+        "value": "2e",
+        "label": "Classement Canada (The Source)"
+      }
+    ]
+  },
+  "portfolioSection": {
+    "title": "Portfolio & Contributions Médias",
+    "filterAll": "Tous",
+    "categories": {
+      "article": "Articles",
+      "video": "Vidéos",
+      "tv": "Télévision",
+      "editorial": "Éditorial"
+    }
+  },
+  "education": {
+    "title": "Formation & Certifications",
+    "degree": "Mini-MBA, Programme Exécutif en Gestion d'Entreprise",
+    "school": "McGill Desautels Faculty of Management",
+    "year": "2013",
+    "languages": "Bilingue : Anglais & Français (Courant – Écrit & Oral)",
+    "tech": "Maîtrise Technologique : SalesForce CRM, Excel, Analytique des Ventes, Systèmes de Gestion de Concessionnaires",
+    "tools": "Expertise Outils Terrain : Planification en ligne des concessionnaires, documentation des contacts, systèmes de suivi KPI"
+  },
+  "contact": {
+    "title": "Contact",
+    "cta": "Discutons de comment je peux contribuer à votre croissance des ventes et à l'excellence de votre réseau de concessionnaires.",
+    "rights": "© 2025 Patrice Rivest. Tous droits réservés."
+  }
+}

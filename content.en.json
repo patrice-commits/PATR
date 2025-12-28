@@ -1,0 +1,295 @@
+{
+    "header": {
+        "name": "Patrice Rivest",
+        "title": "Regional Sales Leader | Dealer Network Management | Sales Growth & CX Excellence",
+        "location": "Montréal, Québec",
+        "phone": "(450) 760-8910",
+        "email": "patrice@rivest.co",
+        "website": "patricerivest.co",
+        "cta": {
+            "email": "Email",
+            "call": "Call",
+            "download": "Download PDF Resume"
+        }
+    },
+    "nav": {
+        "home": "Home",
+        "profile": "Profile",
+        "competencies": "Competencies",
+        "experience": "Experience",
+        "achievements": "Achievements",
+        "portfolio": "Portfolio",
+        "education": "Education",
+        "contact": "Contact"
+    },
+    "profile": {
+        "title": "Executive Profile",
+        "content": "Results-driven regional sales leader with 25+ years of progressive leadership experience driving revenue growth, dealer network expansion, and operational excellence across Fortune 500 and growth-stage organizations. Proven track record building and scaling high-performing field teams, managing dealer networks, and consistently exceeding retail, wholesale, and profitability targets. Strategic thinker skilled in dealer development, team coaching, field execution, and creating best-in-class customer experiences. Demonstrated expertise in field operations oversight, dealer performance optimization, inventory management, and stakeholder engagement—with bilingual capability (English/French) and deep understanding of dealer operations and retail-wholesale dynamics. Industry-recognized powersports expert with established credibility through editorial contributions and media engagement."
+    },
+    "competencies": {
+        "title": "Core Competencies",
+        "categories": [
+            {
+                "name": "Sales Leadership & Dealer Network",
+                "skills": [
+                    "Team Leadership (170–275+ direct reports)",
+                    "Dealer Network Management",
+                    "Retail & Wholesale Performance",
+                    "Field Operations Oversight",
+                    "Dealer Excellence Programs",
+                    "P&A & Accessories Growth",
+                    "Inventory Management & Optimization"
+                ]
+            },
+            {
+                "name": "Field Execution & KPI Stewardship",
+                "skills": [
+                    "Sales Target Achievement",
+                    "KPI Performance Tracking & Analysis",
+                    "Dealer Visit Cadence Management",
+                    "Lead Management",
+                    "Performance Improvement Programs",
+                    "Regional Sales Planning",
+                    "Strategic Market Activation"
+                ]
+            },
+            {
+                "name": "Dealer Development & Performance Optimization",
+                "skills": [
+                    "Dealer Performance Analysis",
+                    "Buy/Sell Recommendations",
+                    "Network Expansion & Optimization",
+                    "Dealer Relationship Management",
+                    "Strategic Dealer Coaching",
+                    "Multi-Channel Management (OEM, Specialty Markets)"
+                ]
+            },
+            {
+                "name": "Operations & Strategic Management",
+                "skills": [
+                    "P&L Management",
+                    "Budget Ownership & Cost Control",
+                    "Inventory Health & Requirements Planning",
+                    "Cross-Functional Alignment",
+                    "Stakeholder Engagement",
+                    "Field Tools Adoption (SalesForce, CRM)"
+                ]
+            },
+            {
+                "name": "Leadership & Communication",
+                "skills": [
+                    "Team Coaching & Development",
+                    "Strategic Vision Setting",
+                    "Quarterly Dealer Webinars & Regional Meetings",
+                    "Interpersonal & Analytical Skills",
+                    "Business Financial Acumen",
+                    "Bilingual Communication (English/French)"
+                ]
+            },
+            {
+                "name": "Industry & Media Expertise",
+                "skills": [
+                    "Powersports Market Intelligence",
+                    "Editorial Contributions",
+                    "Media Relations & Industry Positioning",
+                    "Brand Credibility Development",
+                    "Market Trend Analysis"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "positions": [
+            {
+                "title": "President",
+                "company": "Magellan / Segway Powersports Canada",
+                "period": "March 2024 – March 2025",
+                "description": "Led national distribution and dealer network operations for Segway Powersports products across Canada. Managed import, distribution, and service delivery infrastructure serving dealer network spanning entire country. Oversaw multi-faceted operations including logistics, dealer relations, and after-sales service standards. Implemented AI-driven automation and change management initiatives to optimize operational efficiency and dealer engagement.",
+                "achievements": [
+                    "Directed Canada-wide distribution network for premium powersports brand establishing consistent dealer performance standards and compliance",
+                    "Managed dealer acquisition, relationship development, and performance monitoring ensuring alignment with operational and profitability KPIs",
+                    "Implemented AI-integrated dealer tracking and communication platforms accelerating decision-making and field accountability",
+                    "Led field team coaching and strategic dealer development initiatives driving retail and wholesale target achievement",
+                    "Managed inventory optimization strategies ensuring appropriate month's supply and model mix across national dealer network",
+                    "Coordinated multi-channel business activation (OEM, specialty markets) supporting revenue diversification across dealer network"
+                ],
+                "tags": [
+                    "Sales Leadership",
+                    "Network Management",
+                    "Inventory Optimization",
+                    "AI & Automation",
+                    "Powersports"
+                ]
+            },
+            {
+                "title": "Vice-President, Operations",
+                "company": "Garantie Avantage Plus",
+                "period": "February 2021 – March 2024",
+                "description": "Led strategic transformation and geographic expansion of operations from single-province to Canada-wide distribution network serving powersports market. Directly managed dealer network development, market expansion strategy, and marketing repositioning, achieving market-leading brand recognition and dealer satisfaction across Canadian powersports markets.",
+                "achievements": [
+                    "Scaled dealer network operations across all Canadian provinces managing multi-location complexity and regional performance optimization within powersports sector",
+                    "Drove powersports market development and dealer acquisition expanding brand presence across key regional markets and dealer segments",
+                    "Repositioned dealer engagement strategy resulting in market-leading brand recognition and dealer partner alignment in powersports industry",
+                    "Managed cross-functional coordination between field operations and marketing ensuring cohesive dealer messaging and brand positioning",
+                    "Implemented national dealer communication framework and performance tracking systems while maintaining operational efficiency"
+                ],
+                "tags": [
+                    "Strategic Transformation",
+                    "National Expansion",
+                    "Dealer Development",
+                    "Marketing",
+                    "Powersports"
+                ]
+            },
+            {
+                "title": "Founder & Principal",
+                "company": "Rivest Co.",
+                "period": "2017 – Present",
+                "description": "Founded and operate a concurrent consulting practice supporting B2B powersports dealer clients and manufacturers with dealer network development, dealership growth strategies, and sales optimization advisory. Built a team of professionals delivering structured, outcome-driven consulting engagements across sales, dealer operations, network expansion, and field execution. Developed specialized expertise in powersports dealer network optimization and Canada-wide import distribution channel development. Integrated change management expertise enabling clients to navigate team transformation, performance optimization, and field execution strategies.",
+                "achievements": [
+                    "Launched consulting division generating six-figure annual revenue supporting powersports dealerships and manufacturers with network development and growth strategies",
+                    "Developed proprietary dealer performance coaching frameworks and network optimization methodologies deployed across multiple powersports client engagements",
+                    "Led strategic advisory on dealership growth, network expansion, and Canada-wide distribution channel optimization for powersports manufacturer clients",
+                    "Established expertise in powersports dealer network development, field operations oversight, sales performance optimization, and import distribution channel management"
+                ],
+                "tags": [
+                    "Strategic Consulting",
+                    "Network Development",
+                    "Dealership Growth",
+                    "Sales Optimization",
+                    "B2B"
+                ]
+            },
+            {
+                "title": "Regional Unit Manager",
+                "company": "Bell / The Source",
+                "period": "2013 – 2017",
+                "description": "Led regional expansion and dealer acquisition strategy for The Source Express dealer division. Promoted to corporate restructuring role after demonstrating exceptional regional leadership. Managed 275+ employees across multiple locations with accountability for territory-wide performance metrics, retail targets, and dealer network optimization.",
+                "achievements": [
+                    "Led implementation of The Source Express dealer division from pilot to full regional rollout managing 275+ field and retail staff",
+                    "Grew territory through strategic dealer acquisitions, performance management, and network optimization",
+                    "Achieved promotion to corporate restructuring role due to consistent high achievement and sales performance delivery",
+                    "Completed territory restructuring mandate achieving 2nd-ranked Canada performance across all KPIs including retail, wholesale, and profitability",
+                    "Implemented field visit cadence standards and dealer performance tracking systems ensuring consistent dealer engagement and accountability",
+                    "Managed quarterly dealer communication initiatives and regional performance reporting to drive alignment and results"
+                ],
+                "tags": [
+                    "Regional Expansion",
+                    "Team Management",
+                    "Restructuring",
+                    "KPI Performance",
+                    "Retail Network"
+                ]
+            },
+            {
+                "title": "District Manager, General Management",
+                "company": "Best Buy Canada",
+                "period": "2008 – 2013",
+                "description": "Rapid promotion from General Manager to District Manager overseeing multiple locations. Accountable for district operations, sales target achievement, and leadership team management.",
+                "achievements": [
+                    "Achieved 178% retail profit increase in CFMOTO territory delivering unprecedented growth results",
+                    "Managed multiple store locations with full P&L oversight and operational accountability",
+                    "Developed and mentored store managers driving consistent performance improvements across district",
+                    "Implemented best practices and standardized processes ensuring operational excellence"
+                ],
+                "tags": [
+                    "District Management",
+                    "Profit Growth",
+                    "Multi-Site Leadership",
+                    "Operational Excellence",
+                    "Retail"
+                ]
+            },
+            {
+                "title": "District Compliance Manager",
+                "company": "Walmart Canada",
+                "period": "2003 – 2008",
+                "description": "Managed district-wide compliance, safety programs, and operational excellence initiatives across multiple locations. Developed and implemented innovative accident prevention programs while overseeing inventory controls and strategic retail expansion projects. Supported multi-channel business development including OEM and specialty market initiatives.",
+                "achievements": [
+                    "Designed and implemented back injury prevention program for warehouse staff reducing accident-related costs by 47% across territory",
+                    "Strengthened inventory verification procedures and loss prevention protocols achieving measurable shrink reduction and cost savings",
+                    "Led implementation of Walmart SuperCenters grocery division rollout establishing operational framework and dealer/supplier management processes",
+                    "Managed district compliance initiatives and field execution standards ensuring adherence to corporate guidelines and operational best practices"
+                ],
+                "tags": [
+                    "Compliance",
+                    "Safety Programs",
+                    "Cost Reduction",
+                    "Operational Excellence",
+                    "Inventory Management"
+                ]
+            },
+            {
+                "title": "Vice-President",
+                "company": "La Firme Rivest et Desjardins (Family Business)",
+                "period": "1998 – 2003",
+                "description": "Managed operations and growth strategy for established family business. Developed business acumen in financial management, P&L optimization, and team leadership.",
+                "achievements": [
+                    "Led daily operations and strategic planning for family business",
+                    "Developed foundational skills in P&L management and financial control",
+                    "Built and led high-performing teams driving business growth"
+                ],
+                "tags": [
+                    "Business Management",
+                    "Leadership",
+                    "Financial Management",
+                    "Growth Strategy"
+                ]
+            }
+        ]
+    },
+    "achievements": {
+        "title": "Key Achievements",
+        "metrics": [
+            {
+                "value": "+58%",
+                "label": "CFMOTO Territory Growth"
+            },
+            {
+                "value": "+178%",
+                "label": "Best Buy Retail Profit"
+            },
+            {
+                "value": "170–275+",
+                "label": "Team Management (Direct Reports)"
+            },
+            {
+                "value": "-47%",
+                "label": "Walmart Accident Cost Reduction"
+            },
+            {
+                "value": "National",
+                "label": "Dealer Network Expansion"
+            },
+            {
+                "value": "2nd",
+                "label": "Canada Ranking (The Source)"
+            }
+        ]
+    },
+    "portfolioSection": {
+        "title": "Portfolio & Media Contributions",
+        "filterAll": "All",
+        "categories": {
+            "article": "Articles",
+            "video": "Videos",
+            "tv": "Television",
+            "editorial": "Editorial"
+        }
+    },
+    "education": {
+        "title": "Education & Certifications",
+        "degree": "Mini-MBA, Business Management Executive Program",
+        "school": "McGill Desautels Faculty of Management",
+        "year": "2013",
+        "languages": "Bilingual: English & French (Fluent – Written & Verbal)",
+        "tech": "Technology Proficiency: SalesForce CRM, Excel, Sales Analytics, Dealer Management Systems",
+        "tools": "Field Tools Expertise: Online dealer scheduling, contact documentation, KPI tracking systems"
+    },
+    "contact": {
+        "title": "Contact",
+        "cta": "Let's discuss how I can contribute to your sales growth and dealer network excellence.",
+        "rights": "© 2025 Patrice Rivest. All rights reserved."
+    }
+}
