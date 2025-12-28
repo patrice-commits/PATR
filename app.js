@@ -9,7 +9,7 @@ class CVApp {
         this.content = {};
         this.portfolio = {};
         this.activeFilters = new Set();
-        
+
         this.init();
     }
 
@@ -19,7 +19,7 @@ class CVApp {
         this.renderContent();
         this.setupSmoothScroll();
         this.setupScrollEffects();
-        
+
         // Load language preference
         const savedLang = localStorage.getItem('preferred-language');
         if (savedLang && savedLang !== this.currentLang) {
@@ -35,15 +35,15 @@ class CVApp {
             // Load French content
             const frResponse = await fetch('content.fr.json');
             this.content.fr = await frResponse.json();
-            
+
             // Load English content
             const enResponse = await fetch('content.en.json');
             this.content.en = await enResponse.json();
-            
+
             // Load portfolio
             const portfolioResponse = await fetch('portfolio.json');
             this.portfolio = await portfolioResponse.json();
-            
+
         } catch (error) {
             console.error('Error loading content:', error);
         }
@@ -70,7 +70,7 @@ class CVApp {
         this.renderExperience(data.experience);
         this.renderAchievements(data.achievements);
         this.renderPortfolio();
-        
+
         // Update HTML lang attribute
         document.documentElement.lang = this.currentLang;
     }
@@ -95,13 +95,13 @@ class CVApp {
             tag.addEventListener('click', () => {
                 tag.classList.toggle('active');
                 const skill = tag.getAttribute('data-skill');
-                
+
                 if (tag.classList.contains('active')) {
                     this.activeFilters.add(skill.toLowerCase());
                 } else {
                     this.activeFilters.delete(skill.toLowerCase());
                 }
-                
+
                 this.filterExperienceAndPortfolio();
             });
         });
@@ -153,10 +153,10 @@ class CVApp {
                 const targetId = btn.getAttribute('data-target');
                 const target = document.getElementById(targetId);
                 const toggleText = btn.querySelector('.toggle-text');
-                
+
                 target.classList.toggle('collapsed');
                 btn.classList.toggle('expanded');
-                
+
                 if (target.classList.contains('collapsed')) {
                     toggleText.textContent = this.currentLang === 'fr' ? 'Voir Détails' : 'Show Details';
                 } else {
@@ -182,18 +182,18 @@ class CVApp {
         const filterContainer = document.getElementById('portfolioFilters');
         const gridContainer = document.getElementById('portfolioGrid');
         const data = this.content[this.currentLang];
-        
+
         if (!filterContainer || !gridContainer) return;
 
         // Get unique categories
         const categories = [...new Set(this.portfolio.items.map(item => item.category))];
-        
+
         // Render filter buttons (keep "All" button, add category buttons)
         const categoryButtons = categories.map(cat => {
             const categoryLabel = data.portfolioSection.categories[cat] || cat;
             return `<button class="filter-btn" data-filter="${cat}">${categoryLabel}</button>`;
         }).join('');
-        
+
         // Keep the existing "All" button and append category buttons
         const allButton = filterContainer.querySelector('[data-filter="all"]');
         if (allButton) {
@@ -205,20 +205,55 @@ class CVApp {
             const title = this.currentLang === 'fr' ? item.title : (item.titleEn || item.title);
             const description = this.currentLang === 'fr' ? item.description : (item.descriptionEn || item.description);
             const hasUrl = item.url && item.url.trim() !== '';
-            
+
+            // Generate video thumbnail if it's a video
+            let thumbnailHtml = '';
+            if (item.category === 'video' && hasUrl) {
+                let thumbnailUrl = '';
+
+                // YouTube thumbnail
+                if (item.url.includes('youtube.com') || item.url.includes('youtu.be')) {
+                    const videoId = this.extractYouTubeId(item.url);
+                    if (videoId) {
+                        thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+                    }
+                }
+                // Facebook video placeholder
+                else if (item.url.includes('facebook.com')) {
+                    thumbnailUrl = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="480" height="360"%3E%3Crect width="480" height="360" fill="%231877f2"/%3E%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="28" fill="white"%3EFacebook Video%3C/text%3E%3C/svg%3E';
+                }
+
+                if (thumbnailUrl) {
+                    thumbnailHtml = `
+                        <div class="portfolio-thumbnail">
+                            <img src="${thumbnailUrl}" alt="${title}" class="portfolio-thumb-img">
+                            <div class="play-icon">
+                                <svg width="60" height="60" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(0,0,0,0.7)"/>
+                                    <polygon points="10,8 16,12 10,16" fill="white"/>
+                                </svg>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+
             return `
                 <div class="portfolio-card" data-category="${item.category}" data-tags="${item.tags.join(',').toLowerCase()}">
-                    <span class="portfolio-type">${item.type}</span>
-                    <h3 class="portfolio-title">${title}</h3>
-                    <p class="portfolio-platform">${item.platform} ${item.year ? `• ${item.year}` : ''}</p>
-                    <p class="portfolio-description">${description}</p>
-                    <div class="portfolio-tags">
-                        ${item.tags.map(tag => `<span class="portfolio-tag">${tag}</span>`).join('')}
+                    ${thumbnailHtml}
+                    <div class="portfolio-content">
+                        <span class="portfolio-type">${item.type}</span>
+                        <h3 class="portfolio-title">${title}</h3>
+                        <p class="portfolio-platform">${item.platform} ${item.year ? `• ${item.year}` : ''}</p>
+                        <p class="portfolio-description">${description}</p>
+                        <div class="portfolio-tags">
+                            ${item.tags.map(tag => `<span class="portfolio-tag">${tag}</span>`).join('')}
+                        </div>
+                        ${hasUrl
+                    ? `<a href="${item.url}" class="portfolio-link available" target="_blank" rel="noopener">View →</a>`
+                    : `<span class="portfolio-link">${this.currentLang === 'fr' ? 'URL à venir' : 'URL coming soon'}</span>`
+                }
                     </div>
-                    ${hasUrl 
-                        ? `<a href="${item.url}" class="portfolio-link available" target="_blank" rel="noopener">View →</a>`
-                        : `<span class="portfolio-link">${this.currentLang === 'fr' ? 'URL à venir' : 'URL coming soon'}</span>`
-                    }
                 </div>
             `;
         }).join('');
@@ -227,18 +262,24 @@ class CVApp {
         this.setupPortfolioFilters();
     }
 
+    extractYouTubeId(url) {
+        const regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+        const match = url.match(regExp);
+        return (match && match[7].length === 11) ? match[7] : null;
+    }
+
     // ================================
     // PORTFOLIO FILTERING
     // ================================
     setupPortfolioFilters() {
         const filterBtns = document.querySelectorAll('#portfolioFilters .filter-btn');
-        
+
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
                 // Update active state
                 filterBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-                
+
                 const filter = btn.getAttribute('data-filter');
                 this.filterPortfolioByCategory(filter);
             });
@@ -247,7 +288,7 @@ class CVApp {
 
     filterPortfolioByCategory(category) {
         const cards = document.querySelectorAll('.portfolio-card');
-        
+
         cards.forEach(card => {
             if (category === 'all') {
                 card.classList.remove('hidden');
@@ -278,26 +319,26 @@ class CVApp {
         document.querySelectorAll('.timeline-item').forEach(item => {
             const tags = Array.from(item.querySelectorAll('.timeline-tags .tag'))
                 .map(tag => tag.textContent.toLowerCase());
-            
-            const matches = tags.some(tag => 
-                Array.from(this.activeFilters).some(filter => 
+
+            const matches = tags.some(tag =>
+                Array.from(this.activeFilters).some(filter =>
                     tag.includes(filter) || filter.includes(tag)
                 )
             );
-            
+
             item.style.display = matches ? 'block' : 'none';
         });
 
         // Filter portfolio
         document.querySelectorAll('.portfolio-card').forEach(card => {
             const tags = card.getAttribute('data-tags').split(',');
-            
-            const matches = tags.some(tag => 
-                Array.from(this.activeFilters).some(filter => 
+
+            const matches = tags.some(tag =>
+                Array.from(this.activeFilters).some(filter =>
                     tag.includes(filter) || filter.includes(tag)
                 )
             );
-            
+
             if (matches) {
                 card.classList.remove('hidden');
             } else {
@@ -326,7 +367,7 @@ class CVApp {
             mobileMenuToggle.addEventListener('click', () => {
                 navMenu.classList.toggle('active');
             });
-            
+
             // Close menu when clicking a link
             navMenu.querySelectorAll('.nav-link').forEach(link => {
                 link.addEventListener('click', () => {
@@ -339,12 +380,12 @@ class CVApp {
     switchLanguage(lang) {
         this.currentLang = lang;
         localStorage.setItem('preferred-language', lang);
-        
+
         // Update language toggle UI
         document.querySelectorAll('.lang-option').forEach(opt => {
             opt.classList.toggle('active', opt.getAttribute('data-lang') === lang);
         });
-        
+
         // Re-render content
         this.renderContent();
     }
@@ -354,17 +395,17 @@ class CVApp {
     // ================================
     setupSmoothScroll() {
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 const href = this.getAttribute('href');
                 if (href === '#') return;
-                
+
                 e.preventDefault();
                 const target = document.querySelector(href);
-                
+
                 if (target) {
                     const headerHeight = document.querySelector('.header').offsetHeight;
                     const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-                    
+
                     window.scrollTo({
                         top: targetPosition,
                         behavior: 'smooth'
@@ -383,14 +424,14 @@ class CVApp {
 
         window.addEventListener('scroll', () => {
             const currentScroll = window.pageYOffset;
-            
+
             // Add scrolled class to header
             if (currentScroll > 50) {
                 header.classList.add('scrolled');
             } else {
                 header.classList.remove('scrolled');
             }
-            
+
             lastScroll = currentScroll;
         });
 
