@@ -1,10 +1,10 @@
 {
   "header": {
     "name": "Patrice Rivest",
-    "title": "Leader des Ventes Régionales | Gestion de Réseaux de Concessionnaires | Croissance des Ventes & Excellence CX",
+    "title": "Dirigeant d'Entreprise | Leadership Ventes & Croissance | Positionnement Marché B2B",
     "location": "Montréal, Québec",
     "phone": "(450) 760-8910",
-    "email": "patrice@rivest.co",
+    "email": "patrice@rivest.ca",
     "website": "patricerivest.co",
     "cta": {
       "email": "Courriel",
@@ -24,7 +24,7 @@
   },
   "profile": {
     "title": "Profil Exécutif",
-    "content": "Leader des ventes régionales axé sur les résultats avec plus de 25 ans d'expérience progressive en leadership, stimulant la croissance des revenus, l'expansion du réseau de concessionnaires et l'excellence opérationnelle au sein d'organisations Fortune 500 et d'entreprises en croissance. Bilan éprouvé dans la construction et la mise à l'échelle d'équipes de terrain performantes, la gestion de réseaux de concessionnaires et le dépassement constant des objectifs de vente au détail, de gros et de rentabilité. Penseur stratégique compétent en développement de concessionnaires, coaching d'équipe, exécution terrain et création d'expériences client de classe mondiale. Expertise démontrée dans la supervision des opérations terrain, l'optimisation des performances des concessionnaires, la gestion des stocks et l'engagement des parties prenantes—avec capacité bilingue (anglais/français) et compréhension approfondie des opérations de concessionnaires et de la dynamique vente détail-gros. Expert reconnu de l'industrie powersports avec crédibilité établie par des contributions éditoriales et un engagement médiatique."
+    "content": "Dirigeant d'entreprise axé sur les résultats avec plus de 25 ans d'expérience progressive en leadership, stimulant la croissance des revenus, l'expansion de marché et la transformation organisationnelle. Bilan éprouvé dans la mise à l'échelle d'opérations d'une seule province à une distribution pancanadienne tout en générant constamment des marges bénéficiaires leaders de l'industrie. Penseur stratégique compétent dans la construction d'équipes haute performance, la mise en œuvre de stratégies de croissance basées sur les données et le repositionnement de marques pour un leadership de marché. Expertise démontrée en optimisation de force de vente, transformation marketing et restructuration opérationnelle au sein d'organisations Fortune 500 et d'entreprises en croissance."
   },
   "competencies": {
     "title": "Compétences Clés",
@@ -114,7 +114,13 @@
           "Gestion de stratégies d'optimisation des stocks assurant un approvisionnement mensuel et un mix de modèles appropriés à travers le réseau national de concessionnaires",
           "Coordination de l'activation commerciale multi-canal (OEM, marchés spécialisés) soutenant la diversification des revenus à travers le réseau de concessionnaires"
         ],
-        "tags": ["Leadership des Ventes", "Gestion de Réseau", "Optimisation des Stocks", "IA & Automatisation", "Powersports"]
+        "tags": [
+          "Leadership des Ventes",
+          "Gestion de Réseau",
+          "Optimisation des Stocks",
+          "IA & Automatisation",
+          "Powersports"
+        ]
       },
       {
         "title": "Vice-Président, Opérations",
@@ -128,7 +134,13 @@
           "Gestion de la coordination inter-fonctionnelle entre les opérations terrain et le marketing assurant une messagerie cohérente aux concessionnaires et un positionnement de marque",
           "Mise en œuvre d'un cadre de communication national avec les concessionnaires et de systèmes de suivi de performance tout en maintenant l'efficacité opérationnelle"
         ],
-        "tags": ["Transformation Stratégique", "Expansion Nationale", "Développement de Concessionnaires", "Marketing", "Powersports"]
+        "tags": [
+          "Transformation Stratégique",
+          "Expansion Nationale",
+          "Développement de Concessionnaires",
+          "Marketing",
+          "Powersports"
+        ]
       },
       {
         "title": "Fondateur & Principal",
@@ -141,7 +153,13 @@
           "Direction de services-conseils stratégiques sur la croissance de concessions, l'expansion de réseau et l'optimisation de canaux de distribution pancanadiens pour des clients fabricants powersports",
           "Établissement d'une expertise dans le développement de réseaux de concessionnaires powersports, la supervision des opérations terrain, l'optimisation de la performance des ventes et la gestion de canaux de distribution d'importation"
         ],
-        "tags": ["Conseil Stratégique", "Développement de Réseau", "Croissance de Concessions", "Optimisation des Ventes", "B2B"]
+        "tags": [
+          "Conseil Stratégique",
+          "Développement de Réseau",
+          "Croissance de Concessions",
+          "Optimisation des Ventes",
+          "B2B"
+        ]
       },
       {
         "title": "Gestionnaire d'Unité Régionale",
@@ -156,7 +174,13 @@
           "Mise en œuvre de normes de cadence de visites terrain et de systèmes de suivi de performance des concessionnaires assurant un engagement et une responsabilisation cohérents des concessionnaires",
           "Gestion d'initiatives de communication trimestrielle avec les concessionnaires et de rapports de performance régionaux pour stimuler l'alignement et les résultats"
         ],
-        "tags": ["Expansion Régionale", "Gestion d'Équipe", "Restructuration", "Performance KPI", "Réseau de Détail"]
+        "tags": [
+          "Expansion Régionale",
+          "Gestion d'Équipe",
+          "Restructuration",
+          "Performance KPI",
+          "Réseau de Détail"
+        ]
       },
       {
         "title": "Directeur de District, Gestion Générale",
@@ -169,7 +193,13 @@
           "Développement et mentorat de gestionnaires de magasins stimulant des améliorations de performance cohérentes à travers le district",
           "Mise en œuvre de meilleures pratiques et processus standardisés assurant l'excellence opérationnelle"
         ],
-        "tags": ["Gestion de District", "Croissance du Profit", "Leadership Multi-Sites", "Excellence Opérationnelle", "Détail"]
+        "tags": [
+          "Gestion de District",
+          "Croissance du Profit",
+          "Leadership Multi-Sites",
+          "Excellence Opérationnelle",
+          "Détail"
+        ]
       },
       {
         "title": "Gestionnaire de Conformité de District",
@@ -182,7 +212,13 @@
           "Direction de la mise en œuvre du déploiement de la division épicerie des SuperCentres Walmart établissant le cadre opérationnel et les processus de gestion concessionnaires/fournisseurs",
           "Gestion des initiatives de conformité de district et des normes d'exécution terrain assurant l'adhérence aux directives corporatives et aux meilleures pratiques opérationnelles"
         ],
-        "tags": ["Conformité", "Programmes de Sécurité", "Réduction des Coûts", "Excellence Opérationnelle", "Gestion des Stocks"]
+        "tags": [
+          "Conformité",
+          "Programmes de Sécurité",
+          "Réduction des Coûts",
+          "Excellence Opérationnelle",
+          "Gestion des Stocks"
+        ]
       },
       {
         "title": "Vice-Président",
@@ -194,7 +230,12 @@
           "Développement de compétences fondamentales en gestion P&L et contrôle financier",
           "Construction et leadership d'équipes performantes stimulant la croissance de l'entreprise"
         ],
-        "tags": ["Gestion d'Entreprise", "Leadership", "Gestion Financière", "Stratégie de Croissance"]
+        "tags": [
+          "Gestion d'Entreprise",
+          "Leadership",
+          "Gestion Financière",
+          "Stratégie de Croissance"
+        ]
       }
     ]
   },
