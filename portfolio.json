@@ -1,6 +1,24 @@
 {
     "items": [
         {
+            "id": "facebook-video-1",
+            "title": "Vidéo Facebook - Présentation Professionnelle",
+            "titleEn": "Facebook Video - Professional Presentation",
+            "type": "video",
+            "category": "video",
+            "platform": "Facebook",
+            "year": "2025",
+            "description": "Contenu vidéo professionnel partagé sur Facebook démontrant l'expertise et le leadership.",
+            "descriptionEn": "Professional video content shared on Facebook demonstrating expertise and leadership.",
+            "tags": [
+                "Leadership",
+                "Social Media",
+                "Video",
+                "Professional"
+            ],
+            "url": "https://www.facebook.com/watch/?v=452036723964107"
+        },
+        {
             "id": "youtube-video-1",
             "title": "Vidéo YouTube - Leadership & Croissance",
             "titleEn": "YouTube Video - Leadership & Growth",
