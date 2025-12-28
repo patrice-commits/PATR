@@ -19,6 +19,60 @@
             "url": "https://www.facebook.com/watch/?v=452036723964107"
         },
         {
+            "id": "magazine-moto-kawasaki",
+            "title": "Magazine Moto - Kawasaki VN1700 Vaquero 2023",
+            "titleEn": "Magazine Moto - Kawasaki VN1700 Vaquero 2023",
+            "type": "editorial",
+            "category": "article",
+            "platform": "Magazine Moto",
+            "year": "2023",
+            "description": "Revue technique et analyse approfondie de la Kawasaki VN1700 Vaquero 2023, démontrant l'expertise en évaluation de produits powersports.",
+            "descriptionEn": "Technical review and in-depth analysis of the Kawasaki VN1700 Vaquero 2023, demonstrating expertise in powersports product evaluation.",
+            "tags": [
+                "Powersports",
+                "Product Review",
+                "Kawasaki",
+                "Motorcycle"
+            ],
+            "url": "https://magazinemoto.com/kawasaki-vn1700-vaquero-2023/"
+        },
+        {
+            "id": "quebec-yachting-entretien",
+            "title": "Quebec Yachting - Entretien Préventif au Quai",
+            "titleEn": "Quebec Yachting - Preventive Maintenance at the Dock",
+            "type": "editorial",
+            "category": "article",
+            "platform": "Quebec Yachting",
+            "year": "2023",
+            "description": "Article sur la sécurité et l'entretien préventif des embarcations, démontrant l'expertise marine et la connaissance des meilleures pratiques.",
+            "descriptionEn": "Article on boat safety and preventive maintenance, demonstrating marine expertise and best practices knowledge.",
+            "tags": [
+                "Marine",
+                "Safety",
+                "Maintenance",
+                "Yachting"
+            ],
+            "url": "https://www.quebecyachting.ca/2023/conseils-et-chroniques/securite-sur-leau/entretien-preventif-a-effectuer-au-quai/"
+        },
+        {
+            "id": "moto-quebec-grande-tournee",
+            "title": "Moto Québec - La Grande Tournée Moto",
+            "titleEn": "Moto Québec - The Great Motorcycle Tour",
+            "type": "editorial",
+            "category": "article",
+            "platform": "Moto Québec",
+            "year": "2024",
+            "description": "Chronique sur la grande tournée moto, partageant l'expérience et la passion pour l'aventure motocycliste au Québec.",
+            "descriptionEn": "Chronicle of the great motorcycle tour, sharing experience and passion for motorcycle adventure in Quebec.",
+            "tags": [
+                "Motorcycle",
+                "Adventure",
+                "Quebec",
+                "Tourism"
+            ],
+            "url": "https://mailer.motoquebec.ca/fr/blogue-info-article-moto/la-grande-tournee-moto-toute-une-aventure?format=amp"
+        },
+        {
             "id": "youtube-video-1",
             "title": "Vidéo YouTube - Leadership & Croissance",
             "titleEn": "YouTube Video - Leadership & Growth",
