@@ -1,6 +1,24 @@
 {
     "items": [
         {
+            "id": "youtube-video-2025",
+            "title": "Vidéo YouTube - Leadership & Croissance",
+            "titleEn": "YouTube Video - Leadership & Growth",
+            "type": "video",
+            "category": "video",
+            "platform": "YouTube",
+            "year": "2025",
+            "description": "Présentation vidéo démontrant l'expertise en leadership, stratégies de croissance et transformation organisationnelle.",
+            "descriptionEn": "Video presentation demonstrating expertise in leadership, growth strategies, and organizational transformation.",
+            "tags": [
+                "Leadership",
+                "Business Strategy",
+                "Video",
+                "Presentation"
+            ],
+            "url": "https://www.youtube.com/watch?v=gO9_gkvOD1A"
+        },
+        {
             "id": "moto-journal",
             "title": "Moto Journal - Chroniqueur Powersports",
             "titleEn": "Moto Journal - Powersports Chronicler",
@@ -145,4 +163,148 @@
             "url": ""
         }
     ]
+}
+            "title": "Moto Journal - Chroniqueur Powersports",
+"titleEn": "Moto Journal - Powersports Chronicler",
+"type": "editorial",
+"category": "article",
+"platform": "Moto Journal",
+"year": "Multiple Years",
+"description": "Contributions éditoriales couvrant l'innovation powersports, les tendances du marché, les lancements de produits et la dynamique de l'écosystème des concessionnaires.",
+"descriptionEn": "Editorial contributions covering powersports innovation, market trends, product launches, and dealer ecosystem dynamics.",
+"tags": [
+    "Powersports",
+    "Journalism",
+    "Market Analysis",
+    "Editorial"
+],
+"url": ""
+},
+{
+"id": "cycle-canada",
+"title": "Cycle Canada - Journalisme Technique",
+"titleEn": "Cycle Canada - Technical Journalism",
+"type": "editorial",
+"category": "article",
+"platform": "Cycle Canada",
+"year": "Multiple Years",
+"description": "Journalisme technique développant une connaissance approfondie de l'industrie à travers la couverture de l'innovation powersports et des opérations de concessionnaires.",
+"descriptionEn": "Technical journalism developing deep industry knowledge through coverage of powersports innovation and dealer operations.",
+"tags": [
+    "Technical Writing",
+    "Powersports",
+    "Product Reviews",
+    "Industry Analysis"
+],
+"url": ""
+},
+{
+"id": "moto-quebec",
+"title": "Moto Québec - Analyste de Marché",
+"titleEn": "Moto Québec - Market Analyst",
+"type": "editorial",
+"category": "article",
+"platform": "Moto Québec",
+"year": "Multiple Years",
+"description": "Analyse de marché et couverture éditoriale des tendances de l'industrie powersports, du développement de produits et des relations fabricants-concessionnaires.",
+"descriptionEn": "Market analysis and editorial coverage of powersports industry trends, product development, and manufacturer-dealer relationships.",
+"tags": [
+    "Market Trends",
+    "Powersports",
+    "Analysis",
+    "Quebec Market"
+],
+"url": ""
+},
+{
+"id": "zone-vl",
+"title": "Zone VL - Journaliste Hors-Route (Télévision)",
+"titleEn": "Zone VL - Off-Road Journalist (Television)",
+"type": "tv",
+"category": "video",
+"platform": "Zone VL",
+"year": "Multiple Years",
+"description": "Présence médiatique et visibilité de marque à travers du contenu vidéo et une couverture éditoriale des segments powersports et tout-terrain.",
+"descriptionEn": "Media presence and brand visibility through video content and editorial coverage of powersports and off-road segments.",
+"tags": [
+    "Television",
+    "Off-Road",
+    "Video Content",
+    "Powersports"
+],
+"url": ""
+},
+{
+"id": "zone-adrenaline",
+"title": "Zone Adrénaline - Spécialiste Powersports (Télévision)",
+"titleEn": "Zone Adrénaline - Powersports Specialist (Television)",
+"type": "tv",
+"category": "video",
+"platform": "Zone Adrénaline",
+"year": "Multiple Years",
+"description": "Segments télévisés couvrant les sports motorisés, les produits récréatifs et l'expertise de l'industrie powersports.",
+"descriptionEn": "Television segments covering powersports, recreational products, and powersports industry expertise.",
+"tags": [
+    "Television",
+    "Powersports",
+    "Recreation",
+    "Media"
+],
+"url": ""
+},
+{
+"id": "voile-quebec",
+"title": "Voile Québec - Journaliste Marine",
+"titleEn": "Voile Quebec - Marine Journalist",
+"type": "editorial",
+"category": "article",
+"platform": "Voile Québec",
+"year": "Multiple Years",
+"description": "Intelligence de marché et analyse de tendances à travers les catégories de produits récréatifs marins et powersports.",
+"descriptionEn": "Market intelligence and trend analysis across marine and powersports recreational product categories.",
+"tags": [
+    "Marine",
+    "Sailing",
+    "Recreation",
+    "Market Intelligence"
+],
+"url": ""
+},
+{
+"id": "consulting-practice",
+"title": "Rivest Co. - Cabinet de Conseil Powersports",
+"titleEn": "Rivest Co. - Powersports Consulting Practice",
+"type": "business",
+"category": "article",
+"platform": "Rivest Co.",
+"year": "2017 - Present",
+"description": "Pratique de conseil fondée en 2017 soutenant les concessionnaires et fabricants B2B powersports avec développement de réseau, stratégies de croissance et optimisation des ventes.",
+"descriptionEn": "Consulting practice founded in 2017 supporting B2B powersports dealers and manufacturers with network development, growth strategies, and sales optimization.",
+"tags": [
+    "Consulting",
+    "B2B",
+    "Network Development",
+    "Sales Strategy"
+],
+"url": "https://rivest.co"
+},
+{
+"id": "industry-speaking",
+"title": "Conférencier Industrie - Webinaires & Réunions Régionales",
+"titleEn": "Industry Speaker - Webinars & Regional Meetings",
+"type": "speaking",
+"category": "video",
+"platform": "Various",
+"year": "Ongoing",
+"description": "Communication stratégique avec les réseaux de concessionnaires à travers des webinaires trimestriels, des réunions régionales et des initiatives d'alignement de performance.",
+"descriptionEn": "Strategic communication with dealer networks through quarterly webinars, regional meetings, and performance alignment initiatives.",
+"tags": [
+    "Speaking",
+    "Dealer Training",
+    "Leadership",
+    "Strategy"
+],
+"url": ""
+}
+]
 }
